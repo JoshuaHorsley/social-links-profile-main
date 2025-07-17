@@ -1,0 +1,70 @@
+body{
+    background-color: hsl(0, 0%, 8%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     font-family: "Inter", sans-serif;
+}
+
+
+.container{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color:hsl(0, 0%, 12%);
+    min-width: 300px;
+    max-width: 375px;
+    padding: 1.5em;
+    border-radius: 20px;
+}
+
+.avatar{
+    border-radius: 100%;
+    width: 90px
+
+}
+
+.name{
+    color:white;
+    font-size: 1.5em;
+    font-weight: 500;
+
+}
+
+.location{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+    font-size: 0.9em;
+}
+
+.description{
+    color:hsl(0, 0%, 80%)
+}
+
+ button{ 
+    width: 100%;
+    background-color: hsl(0, 0%, 20%);
+    color:white;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 700;
+    margin-bottom: 5%;
+
+ }
+
+ button:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+    cursor: pointer;
+ }
+
+ button:focus{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+ }
