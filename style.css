@@ -42,7 +42,7 @@ body{
     color:hsl(0, 0%, 80%)
 }
 
- button{ 
+ a:link{ 
     width: 100%;
     background-color: hsl(0, 0%, 20%);
     color:white;
@@ -51,20 +51,30 @@ body{
     padding: 15px 32px;
     text-align: center;
     text-decoration: none;
-    display: inline-block;
+    display: block;
+    box-sizing: border-box;
     font-size: 1em;
     font-weight: 700;
     margin-bottom: 5%;
 
  }
 
- button:hover{
+ a:hover{
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 20%);
     cursor: pointer;
  }
 
- button:focus{
+ a:focus {
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 20%);
+}
+
+a:visited{
+    color: orange;
+}
+
+ a:active{
     background-color: hsl(75, 94%, 57%);
     color: hsl(0, 0%, 20%);
  }
